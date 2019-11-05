@@ -6,7 +6,7 @@ This project is a proof-of-concept for implementing an [option type](https://en.
 
 As an example, this is generally how an option type would be implemented in Kotlin *(very simplified)*;
 
-```kot
+```kotlin
 sealed class Option<out T> {
 	companion object {
 		// factory functions..
