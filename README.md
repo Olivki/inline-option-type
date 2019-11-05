@@ -27,21 +27,3 @@ Now, an `Option` type may not actually be very useful here in Kotlin as it alrea
 The Kotlin standard library does actually have an [ABT](https://en.wikipedia.org/wiki/Abstract_data_type) implemented in a similar fashion to how our `Option` type is implemented, which is the `Result` class.
 
 Some food for thought would be to create a [disjoint union](https://en.wikipedia.org/wiki/Disjoint_union) type in a similar fashion, as that one works a bit differently to an option type, but that might not be easily done in a nice way with how inline classes only accept *one* value per class.
-
-## License
-
-````
-Copyright {CURRENT_YEAR} Oliver Berg
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-````
