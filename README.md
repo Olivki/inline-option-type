@@ -8,8 +8,8 @@ As an example, this is generally how an option type would be implemented in Kotl
 
 ```kotlin
 sealed class Option<out T> {
-	companion object {
-		// factory functions..
+    companion object {
+        // factory functions..
     }
     
     // generic monadic operations..
